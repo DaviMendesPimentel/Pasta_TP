@@ -5,13 +5,17 @@ public class First_Class_Project {
 	
 	public static void main(String [] args)
 	{
-		String little_str = "String um e string dois";
-		String other_str = "String dois";
+		double d = 100.99;
+		int i = 100;
 		
-		int valor_de_um = little_str.indexOf("um");
-		System.out.println(valor_de_um);
+		d *= d;
 		
-		little_str = little_str.trim();
+		long x = 12345;
+		float pi = 3.14159f;
+		x = x * (long) pi;
+		System.out.println(x);
+		x = (long) (x * pi);
+		System.out.println(x);
 		
 	}
 }
